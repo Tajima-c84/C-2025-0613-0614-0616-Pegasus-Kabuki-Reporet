@@ -1,0 +1,4 @@
+timestamp_local,summary,evidence,hash_sha256
+2025-06-13 00:00:00,端末が自動で落とされた可能性について検討。WIFI品質ログや攻撃トリガー連携、SIM/eSIMの切替も言及あり。,"GEOLogMsgEvent with WIFI_CONNECTION_QUALITY_PROBE, IS_CAPTIVE, failedConnections=4",285742233310927243816404457041506845052120462051963604062
+2025-06-14 22:18:54,bug_type:233 の GEOLogMsgEvent 発火。無線接続品質が極端に悪く、IS_CAPTIVE・BEACON_LOSS・failedConnections=4など通信制御の形跡あり。,"log_msg_state → WIFI_CONNECTION_QUALITY_PROBE（location.lat/lng=0, responsiveness=0, sslConnection=4, success=0）",6000844034740575206140435730137110251824872892667615558449
+2025-06-16 00:00:00,録音一覧ではなくログ一覧をトリガーで自動保存できないかを検討。端末側からの通信/操作をトリガーに記録開始を仕掛けるアイディア。,会話ログ：録音一覧ではなくログ一覧、トリガーで保存などの検討,1656259380035965618964527113061163181043174434374226229498
